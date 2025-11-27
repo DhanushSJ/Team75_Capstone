@@ -1,0 +1,226 @@
+.App {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #213547;
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.Submit-fab {
+  position: fixed;
+  bottom: 21rem;
+  right: 9rem;
+  padding: 0.95rem 2.4rem;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #2f80ed, #56ccf2);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  box-shadow: 0 18px 36px rgba(47, 128, 237, 0.35);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Submit-fab:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 44px rgba(47, 128, 237, 0.4);
+}
+
+.Submit-fab:focus-visible {
+  outline: 3px solid rgba(86, 204, 242, 0.6);
+  outline-offset: 3px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 16px rgba(33, 53, 71, 0.1);
+  gap: 1.5rem;
+}
+
+.College-logo {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+}
+
+.App-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.App-title h1 {
+  font-size: clamp(1.9rem, 4vw, 2.4rem);
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #14294b;
+}
+
+
+.App-main {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(320px, 1fr);
+  gap: 2rem;
+  padding: 2rem 2.5rem 3rem;
+  flex: 1;
+  background: linear-gradient(180deg, #f4f7fb 0%, #ffffff 40%);
+}
+
+.Preview-panel,
+.Evaluation-panel {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2.4rem;
+  box-shadow: 0 20px 46px rgba(33, 53, 71, 0.14);
+  display: flex;
+  flex-direction: column;
+}
+
+.Preview-panel h2 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  font-weight: 600;
+  color: #1d2a3b;
+}
+
+.Preview-frame {
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  min-height: 70vh;
+  box-shadow: inset 0 0 0 1px rgba(33, 53, 71, 0.08);
+}
+
+.Evaluation-panel h2 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  font-weight: 600;
+  color: #1d2a3b;
+}
+
+.Evaluation-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(33, 53, 71, 0.12);
+}
+
+.Evaluation-table thead {
+  background: linear-gradient(135deg, #2f80ed, #56ccf2);
+  color: #ffffff;
+}
+
+.Evaluation-table th,
+.Evaluation-table td {
+  padding: 1.2rem 1.4rem;
+  font-size: 1.12rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(33, 53, 71, 0.08);
+}
+
+.Evaluation-table tbody tr:nth-child(odd) {
+  background: rgba(244, 247, 251, 0.6);
+}
+
+.Evaluation-table tbody tr:hover {
+  background: rgba(47, 128, 237, 0.08);
+  transition: background 0.2s ease;
+}
+
+.Totals-row {
+  background: linear-gradient(135deg, rgba(47, 128, 237, 0.12), rgba(86, 204, 242, 0.12));
+  font-weight: 600;
+}
+
+.Totals-row th {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0f2a4d;
+}
+
+.Totals-row td {
+  color: #0f2a4d;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.Score-cell,
+.Mentor-score-cell {
+  align-items: center;
+  justify-content: center;
+  min-width: 7rem;
+}
+
+.Score-value {
+  display: inline-block;
+  min-width: 4.2rem;
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.Mentor-select {
+  padding: 0.65rem 1rem;
+  border-radius: 14px;
+  border: 1px solid rgba(33, 53, 71, 0.16);
+  background: linear-gradient(180deg, #ffffff 0%, #f3f7ff 100%);
+  font-size: 1.1rem;
+  color: #14294b;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  width: 7.2rem;
+  min-width: 7.2rem;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='6' viewBox='0 0 9 6'%3E%3Cpath fill='none' stroke='%2314294b' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' d='M1 1.25 4.5 4.75 8 1.25'/%3E%3C/svg%3E"),
+    linear-gradient(180deg, #ffffff 0%, #f3f7ff 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: calc(100% - 1rem) 52%, 0 0;
+  background-size: 9px 6px, 100% 100%;
+}
+
+.Totals-row td {
+  text-align: center;
+}
+
+.Mentor-select:focus {
+  outline: none;
+  border-color: #2f80ed;
+  box-shadow: 0 0 0 3px rgba(47, 128, 237, 0.15);
+  background: #ffffff;
+}
+
+@media (max-width: 960px) {
+  .App-main {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+
+  .App-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .App-title {
+    text-align: left;
+    width: 100%;
+  }
+  .Preview-panel,
+  .Evaluation-panel {
+    padding: 1.5rem;
+  }
+}

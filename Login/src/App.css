@@ -1,0 +1,263 @@
+.App {
+  text-align: center;
+}
+
+/* Font Family Setup */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Login Page Styles */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-form {
+  animation: slideIn 0.6s ease-out;
+}
+
+.login-form-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Pulse animation for deadline countdown */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+/* Fade in animation for dashboard */
+@keyframes fadeInDashboard {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.dashboard-container {
+  animation: fadeInDashboard 0.6s ease-in;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for modals */
+.modal-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: rgba(8, 145, 178, 0.5);
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(8, 145, 178, 0.8);
+}
+
+/* Interactive magnetic background */
+.interactive-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Magnetic cursor effect for dashboard */
+.dashboard-container:hover .magnetic-particles {
+  cursor: pointer;
+}
+
+.magnetic-particles {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+  transition: transform 0.3s ease-out;
+}
+
+.particle-1 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.4) 0%, transparent 70%);
+  animation: float 20s infinite ease-in-out;
+}
+
+.particle-2 {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(96, 165, 250, 0.3) 0%, transparent 70%);
+  animation: float 25s infinite ease-in-out reverse;
+}
+
+.particle-3 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.2) 0%, transparent 70%);
+  animation: float 30s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -30px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+}
+
+/* Tab styling */
+.dashboard-tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+  padding-bottom: 15px;
+}
+
+/* Admin dashboard tabs - vertical column on left */
+.admin-dashboard-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 280px;
+  min-width: 280px;
+  margin-bottom: 0;
+  border-bottom: none;
+  border-right: 2px solid #e0e0e0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  margin-right: 30px;
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
+}
+
+.admin-dashboard-tabs .tab-button {
+  width: 100%;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.admin-dashboard-tabs .tab-button:hover {
+  transform: translateX(4px) translateY(0);
+}
+
+.tab-button {
+  padding: 16px 28px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  width: 100%;
+}
+
+.tab-button:hover {
+  color: #0066cc;
+  background: #f5f5f5;
+  border-color: #0066cc;
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.tab-button.active {
+  color: #0066cc;
+  background: #e3f2fd;
+  border-color: #0066cc;
+  border-width: 2px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2), inset 0 2px 4px rgba(0, 102, 204, 0.05);
+}
+
+/* Tab content */
+.tab-content {
+  position: relative;
+  z-index: 10;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

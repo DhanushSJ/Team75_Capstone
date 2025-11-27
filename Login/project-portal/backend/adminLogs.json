@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1764068871560",
+    "action": "Configuration Saved",
+    "details": {
+      "fileTypesCount": 3,
+      "phasesCount": 4,
+      "deadline": "2025-11-30T04:34:00.000Z"
+    },
+    "timestamp": "2025-11-25T11:07:51.556Z"
+  },
+  {
+    "id": "1764068859854",
+    "action": "Configuration Saved",
+    "details": {
+      "fileTypesCount": 3,
+      "phasesCount": 4,
+      "deadline": "2025-11-30T04:34:00.000Z"
+    },
+    "timestamp": "2025-11-25T11:07:39.850Z"
+  },
+  {
+    "id": "1764001471825",
+    "action": "Team Created",
+    "details": {
+      "teamId": "003_2026",
+      "teamName": "",
+      "membersCount": 4,
+      "mentorName": "Vishnu Tiwari"
+    },
+    "timestamp": "2025-11-24T16:24:31.813Z"
+  },
+  {
+    "id": "1764001471819",
+    "action": "Mentor Auto-Created",
+    "details": {
+      "mentorName": "Vishnu Tiwari",
+      "teamId": "003_2026"
+    },
+    "timestamp": "2025-11-24T16:24:31.812Z"
+  },
+  {
+    "id": "1764001272857",
+    "action": "Team Created",
+    "details": {
+      "teamId": "002_2026",
+      "teamName": "",
+      "membersCount": 4,
+      "mentorName": "Richa Sharma"
+    },
+    "timestamp": "2025-11-24T16:21:12.850Z"
+  },
+  {
+    "id": "1764001163529",
+    "action": "Team Created",
+    "details": {
+      "teamId": "001_2026",
+      "teamName": "",
+      "membersCount": 4,
+      "mentorName": "Richa Sharma"
+    },
+    "timestamp": "2025-11-24T16:19:23.520Z"
+  },
+  {
+    "id": "1763996714510",
+    "action": "Configuration Saved",
+    "details": {
+      "fileTypesCount": 3,
+      "phasesCount": 4,
+      "deadline": "2025-11-30T04:34:00.000Z"
+    },
+    "timestamp": "2025-11-24T15:05:14.503Z"
+  },
+  {
+    "id": "1763988260711",
+    "action": "Done Button Clicked",
+    "details": {
+      "hadPhaseSelected": true,
+      "hadReviewSelected": true,
+      "fileTypesReset": 3
+    },
+    "timestamp": "2025-11-24T12:44:20.710Z"
+  },
+  {
+    "id": "1763988260676",
+    "action": "Review Completed",
+    "details": {
+      "phaseName": "Phase 3",
+      "reviewName": "ESA Review",
+      "documentsCount": 3
+    },
+    "timestamp": "2025-11-24T12:44:20.674Z"
+  },
+  {
+    "id": "1763985142278",
+    "action": "Live Submission Deleted",
+    "details": {
+      "submissionId": "active",
+      "phaseName": "Phase 3",
+      "reviewName": "ESA Review"
+    },
+    "timestamp": "2025-11-24T11:52:22.276Z"
+  }
+]

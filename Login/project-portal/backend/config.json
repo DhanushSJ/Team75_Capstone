@@ -1,0 +1,289 @@
+{
+  "deadline": "2025-11-30T04:34:00.000Z",
+  "fileTypes": [
+    {
+      "key": "deliverable1",
+      "label": "ESA ppt",
+      "fileType": "ppt"
+    },
+    {
+      "key": "deliverable2",
+      "label": "Weekly report",
+      "fileType": "pdf"
+    },
+    {
+      "key": "deliverable3",
+      "label": "ESA Report",
+      "fileType": "pdf"
+    }
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "phaseName": "Phase 1",
+      "reviews": [
+        {
+          "review": "review1",
+          "reviewName": "Review 1",
+          "documents": [
+            {
+              "key": "phase1_review1_doc1",
+              "label": "gg no re",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase1_review1_doc2",
+              "label": "Document 2",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase1_review1_doc3",
+              "label": "Document 3",
+              "fileType": "doc"
+            }
+          ]
+        },
+        {
+          "review": "review2",
+          "reviewName": "Review 2",
+          "documents": [
+            {
+              "key": "phase1_review2_doc1",
+              "label": "ple",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase1_review2_doc2",
+              "label": "dre",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase1_review2_doc3",
+              "label": "pain",
+              "fileType": "doc"
+            }
+          ]
+        },
+        {
+          "review": "esaReview",
+          "reviewName": "ESA Review",
+          "documents": [
+            {
+              "key": "phase1_esaReview_doc1",
+              "label": "Document 1"
+            },
+            {
+              "key": "phase1_esaReview_doc2",
+              "label": "Document 2"
+            },
+            {
+              "key": "phase1_esaReview_doc3",
+              "label": "Document 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "phaseName": "Phase 2",
+      "reviews": [
+        {
+          "review": "review1",
+          "reviewName": "Review 1",
+          "documents": [
+            {
+              "key": "phase2_review1_doc1",
+              "label": "rohan",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase2_review1_doc2",
+              "label": "ketan",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase2_review1_doc3",
+              "label": "Document 3",
+              "fileType": "doc"
+            }
+          ]
+        },
+        {
+          "review": "review2",
+          "reviewName": "Review 2",
+          "documents": [
+            {
+              "key": "phase2_review2_doc1",
+              "label": "Document 1"
+            },
+            {
+              "key": "phase2_review2_doc2",
+              "label": "Document 2"
+            },
+            {
+              "key": "phase2_review2_doc3",
+              "label": "Document 3"
+            }
+          ]
+        },
+        {
+          "review": "esaReview",
+          "reviewName": "ESA Review",
+          "documents": [
+            {
+              "key": "phase2_esaReview_doc1",
+              "label": "Document 1"
+            },
+            {
+              "key": "phase2_esaReview_doc2",
+              "label": "Document 2"
+            },
+            {
+              "key": "phase2_esaReview_doc3",
+              "label": "Document 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "phaseName": "Phase 3",
+      "reviews": [
+        {
+          "review": "review1",
+          "reviewName": "Review 1",
+          "documents": [
+            {
+              "key": "phase3_review1_doc1",
+              "label": "Document 1",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase3_review1_doc2",
+              "label": "Document 2",
+              "fileType": "docx"
+            },
+            {
+              "key": "phase3_review1_doc3",
+              "label": "Document 3",
+              "fileType": "ppt"
+            }
+          ]
+        },
+        {
+          "review": "review2",
+          "reviewName": "Review 2",
+          "documents": [
+            {
+              "key": "phase3_review2_doc1",
+              "label": "bleh",
+              "fileType": "doc"
+            },
+            {
+              "key": "phase3_review2_doc2",
+              "label": "bluh",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase3_review2_doc3",
+              "label": "bum",
+              "fileType": "pdf"
+            }
+          ]
+        },
+        {
+          "review": "esaReview",
+          "reviewName": "ESA Review",
+          "documents": [
+            {
+              "key": "phase3_esaReview_doc1",
+              "label": "Document lalala",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase3_esaReview_doc2",
+              "label": "Document 2",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase3_esaReview_doc3",
+              "label": "Document 3",
+              "fileType": "doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "phaseName": "Phase 4",
+      "reviews": [
+        {
+          "review": "review1",
+          "reviewName": "Review 1",
+          "documents": [
+            {
+              "key": "phase4_review1_doc1",
+              "label": "Document 1"
+            },
+            {
+              "key": "phase4_review1_doc2",
+              "label": "Document 2"
+            },
+            {
+              "key": "phase4_review1_doc3",
+              "label": "Document 3"
+            }
+          ]
+        },
+        {
+          "review": "review2",
+          "reviewName": "Review 2",
+          "documents": [
+            {
+              "key": "phase4_review2_doc1",
+              "label": "final reporrt",
+              "fileType": "pdf"
+            },
+            {
+              "key": "phase4_review2_doc2",
+              "label": "jj",
+              "fileType": "docx"
+            },
+            {
+              "key": "phase4_review2_doc3",
+              "label": "Document 3dd",
+              "fileType": "doc"
+            }
+          ]
+        },
+        {
+          "review": "esaReview",
+          "reviewName": "ESA Review",
+          "documents": [
+            {
+              "key": "phase4_esaReview_doc1",
+              "label": "Document 1"
+            },
+            {
+              "key": "phase4_esaReview_doc2",
+              "label": "Document 2"
+            },
+            {
+              "key": "phase4_esaReview_doc3",
+              "label": "Document 3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "activePhaseReview": {
+    "phaseIndex": 2,
+    "phaseName": "Phase 3",
+    "reviewIndex": 2,
+    "reviewName": "ESA Review"
+  }
+}
