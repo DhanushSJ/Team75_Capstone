@@ -1,0 +1,13 @@
+# Large files above 100 MB
+Evaluation/checkpoint-2200/model.safetensors
+Evaluation/checkpoint-2200/optimizer.pt
+
+# Node modules
+node_modules/
+
+# Additional ML checkpoint files (to prevent future large files)
+*.safetensors
+*.pt
+*.pth
+checkpoint-*/
+
