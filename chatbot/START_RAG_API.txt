@@ -1,0 +1,39 @@
+===============================================
+CRITICAL: MANUAL START REQUIRED
+===============================================
+
+The RAG API needs to be started manually in a SEPARATE terminal window.
+
+INSTRUCTIONS:
+1. Open a NEW PowerShell or CMD terminal window
+2. Run these commands:
+
+   cd C:\Users\rohan\Desktop\chatbot\999
+   python rag_api.py
+
+3. You should see:
+   "Starting RAG Chatbot API..."
+   "Uvicorn running on http://0.0.0.0:8000"
+
+4. Leave this terminal window OPEN and running
+
+5. Go back to your React app and try the chatbot again
+
+===============================================
+WHY IS THIS NEEDED?
+===============================================
+
+Background processes in terminals sometimes don't work properly in VS Code.
+Starting the API in a separate terminal window ensures it stays running.
+
+===============================================
+
+ONCE STARTED, you should have 3 terminals running:
+- Terminal 1: Ollama serve (already running)
+- Terminal 2: Node.js backend on port 5000
+- Terminal 3: Python RAG API on port 8000 (START THIS ONE!)
+- Terminal 4: React frontend (auto, from npm start)
+
+===============================================
+
+

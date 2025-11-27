@@ -1,0 +1,3 @@
+2. Securing Dataset: We have to start collecting the deliverables of the previous year capstone projects and their deliverables.
+
+4. Partial Implementation: We will begin the partial implementation of our project by starting to make our quality index and start implementation of basic features of the tracker.

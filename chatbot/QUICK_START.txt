@@ -1,0 +1,70 @@
+================================================================================
+RAG CHATBOT QUICK START GUIDE
+================================================================================
+
+YOUR RAG CHATBOT IS READY! Follow these 3 simple steps:
+
+1. OPEN TERMINAL 1 - Start Ollama:
+   ollama serve
+
+2. OPEN TERMINAL 2 - Start RAG API:
+   cd chatbot\999
+   python rag_api.py
+
+3. OPEN TERMINAL 3 - Start React App:
+   cd C:\Users\rohan\Desktop\login\login
+   npm start
+
+THEN:
+- Open browser: http://localhost:3000
+- Log in
+- Click chatbot button
+- Ask questions!
+
+================================================================================
+TEST QUESTIONS:
+================================================================================
+- "What is plant disease detection?"
+- "Explain GANs and data generation"
+- "What is fog computing?"
+- "Can you suggest research ideas?"
+
+================================================================================
+FILES:
+================================================================================
+Setup files:
+- rag_api.py (FastAPI backend)
+- requirements_api.txt (dependencies)
+- README_RAG_INTEGRATION.md (full docs)
+- SETUP_COMPLETE.md (summary)
+
+Your data:
+- 3531 chunks from 100+ PDFs in vector_july22/
+- Model: llama3.2:1b (fits in 4GB RAM)
+
+================================================================================
+TROUBLESHOOTING:
+================================================================================
+
+Error: "Can't connect to RAG chatbot"
+→ Make sure Terminal 2 (rag_api.py) is running
+
+Error: "Module not found"
+→ Run: pip install -r requirements_api.txt
+
+Error: "Ollama error"
+→ Make sure Terminal 1 (ollama serve) is running
+
+Slow first response?
+→ Normal! First request loads models (30-60s)
+→ Subsequent requests are fast (2-5s)
+
+================================================================================
+NEED HELP?
+================================================================================
+Read: README_RAG_INTEGRATION.md for full documentation
+Read: SETUP_COMPLETE.md for detailed setup guide
+
+================================================================================
+
+

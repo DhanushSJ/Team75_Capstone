@@ -1,0 +1,1 @@
+This paper expresses the potential of fine-tuned LLM in specialized use cases by using specific datasets and fine-tuning techniques which helps us achieve better evaluation metrics despite challenges we face like hallucination, legal and safety concerns, biases in dataset, data leakage which may negatively affect our results.
