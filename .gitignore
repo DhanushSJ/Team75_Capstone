@@ -5,6 +5,10 @@ Evaluation/checkpoint-2200/optimizer.pt
 # Node modules
 node_modules/
 
+# PDFs folder
+chatbot/pdfs/
+**/pdfs/
+
 # Additional ML checkpoint files (to prevent future large files)
 *.safetensors
 *.pt
